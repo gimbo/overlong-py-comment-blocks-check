@@ -1,0 +1,8 @@
+---
+
+- id: overlong-py-comment-blocks-check
+  name: overlong python comment blocks pre-commit check
+  description: check that python modules don't contain over-long comment blocks (which e.g. might be commented out code)
+  entry: overlong-py-comment-blocks-check
+  language: python
+  types: [python]
